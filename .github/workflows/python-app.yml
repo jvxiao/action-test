@@ -30,6 +30,8 @@ jobs:
         python main.py
         
     - name: commit
+      id: commit
+      run: |
         git config --global user.email jvxiao@outlook.com
         git config --global user.name jvxiao
         git add .
